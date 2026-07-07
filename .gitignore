@@ -1,0 +1,6 @@
+.claude/launch.json
+__pycache__/
+*.pyc
+.DS_Store
+monitor.py
+photo_sorter.py
