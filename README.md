@@ -5,7 +5,6 @@
 ## 文件结构
 
 ```
-7.7new/
 ├── index.html            页面骨架 + Service Worker 注册
 ├── style.css             相机仪表盘风格样式(移动端优先,深色)
 ├── app.js                核心逻辑:向导流程 + EV 曝光联动计算引擎
@@ -44,14 +43,13 @@ npx serve .
 
 ### GitHub Pages
 
-1. 新建仓库,把本文件夹内所有文件推到仓库根目录(或 `docs/`)。
-2. 仓库 Settings → Pages → Source 选择对应分支/目录。
-3. 访问 `https://<用户名>.github.io/<仓库名>/`,手机浏览器打开后"添加到主屏幕"即可。
+1. 仓库 Settings → Pages → Source 选择 `main` 分支 / 根目录。
+2. 访问 `https://<用户名>.github.io/<仓库名>/`,手机浏览器打开后"添加到主屏幕"即可。
 
 ### Netlify
 
 1. 登录 [netlify.com](https://www.netlify.com/) → Add new site → Deploy manually。
-2. 把本文件夹整个拖进上传区,几秒后得到 `https://xxx.netlify.app` 地址。
+2. 把仓库根目录整个拖进上传区,几秒后得到 `https://xxx.netlify.app` 地址。
 
 两者都自带 HTTPS,满足 PWA 安装条件。
 
